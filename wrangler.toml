@@ -1,0 +1,9 @@
+name = "githubissues"
+main = "./src/index.ts"
+compatibility_date = "2025-01-16"
+compatibility_flags = ["nodejs_compat"]
+
+# [secrets]
+# DISCORD_TOKEN
+# DISCORD_PUBLIC_KEY
+# DISCORD_APPLICATION_ID

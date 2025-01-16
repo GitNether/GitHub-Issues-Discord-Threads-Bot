@@ -9,16 +9,18 @@
     "build": "webpack",
     "format": "prettier --write \"**/*.{json,ts}\"",
     "lint": "eslint . --ext ts --fix",
-    "forward": "ssh -R 80:localhost:5000 serveo.net"
+    "forward": "ssh -R 80:localhost:5000 serveo.net",
+    "publish": "wrangler deploy"
   },
   "author": "Nicat",
   "license": "MIT",
   "dependencies": {
     "@octokit/graphql": "^7.1.0",
     "@octokit/rest": "^20.1.1",
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node": "^22.13.0",
     "winston": "^3.13.0"
   },
   "devDependencies": {
